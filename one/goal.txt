@@ -1,0 +1,23 @@
+# Практическая часть #1
+
+**Доработайте верстку так, что бы при изменении высоты экрана высота модального окна так же изменялась, при этом контент внутри не ломался, а изображение уменьшалось по высоте, НЕ МЕНЯЯ ПРОПОРЦИЙ. Само начальное изображение может быть любых пропорций (в пример вставлено рандомно выбранное изображение с unsplash, при проверке изображение может быть заменено на другое). Нельзя использовать overflow: scroll для решения задачи. Окно или контент окна не должны вылазить за пределы синих полос. Можно менять HTML, CSS, JS на свое усмотрение, не меняя при этом дизайн окна.**
+
+Исходное состояние:
+
+[https://codepen.io/kachurun/pen/YLppwM](https://codepen.io/kachurun/pen/YLppwM)
+
+(!) Задача может быть решена только изменением стилей (+немного JS фиксов). Реализация решения с минимальным использованием JS будет огромным плюсом.
+
+*Проблема:*
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1ea01d8-ffad-40ca-84c3-e98c0949f68b/Screenshot_2020-01-24_at_17.56.07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1ea01d8-ffad-40ca-84c3-e98c0949f68b/Screenshot_2020-01-24_at_17.56.07.png)
+
+*Ожадаемый результат должен выглядеть так:*
+
+- Высота экрана больше высоты модалки:
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/278d9f44-8a25-44de-9ef9-edb927fdb387/h3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/278d9f44-8a25-44de-9ef9-edb927fdb387/h3.png)
+
+- Высота экрана меньше высоты модалки:
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7abcae4f-0167-4341-b974-e5813249ba25/h1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7abcae4f-0167-4341-b974-e5813249ba25/h1.png)
