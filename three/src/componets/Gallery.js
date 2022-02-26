@@ -16,9 +16,17 @@ export default function Gallery() {
     }, [])
     const [arrPhotos, setarrPhotos] = useState([])
     // console.log('arrPhotos', arrPhotos)
+
+    const [arr, setArr] = useState([])
+
     return (
         <div className="gallery">
-            <Sort arr={j1} />
+            <button onClick={() => {
+                setArr([...arr, ...j1])
+            }}>send</button>
+
+
+            <Sort arr={arr} />
         </div>
     )
 }
