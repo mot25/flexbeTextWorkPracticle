@@ -3,7 +3,7 @@ console.log('modal', modal)
 const img = document.querySelector('.image')
 console.log(img)
 const hModal = modal.offsetHeight
-let heightImg = hModal * 84 / 100
+let heightImg = hModal * 80 / 100
 img.style.height = heightImg + 'px'
 
 /**
