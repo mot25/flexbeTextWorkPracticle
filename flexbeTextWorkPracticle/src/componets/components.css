@@ -1,0 +1,90 @@
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 381px;
+  margin: 0 auto;
+}
+
+.header-title {
+  margin-top: 50px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 68px;
+  color: #000000;
+}
+.header-paragraph {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.0185714em;
+
+  color: #000000;
+}
+
+.container_gallery::-webkit-scrollbar {
+  width: 0;
+}
+.container_gallery {
+  height: 100%;
+  border-radius: 30px;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  height: 87vh;
+}
+
+.rowAroundEdges {
+  flex-direction: column;
+}
+.rowCenter {
+  flex-direction: column;
+}
+.rowAroundEdges > div {
+  height: 262px;
+}
+.rowCenter > div {
+  height: 540px;
+}
+.rowAroundEdges > div,
+.rowCenter > div {
+  width: 360px;
+  margin-top: 0;
+  margin: 15px;
+}
+.img_gallary {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.mark {
+  transition: all 0.5s ease;
+  transform: rotate(0deg);
+  background-image: url("../img/Ellipse.svg");
+  animation: load 1s infinite linear;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
