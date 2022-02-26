@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/flexbeTextWorkPracticle/three/static/css/main.20849904.css",
-    "main.js": "/flexbeTextWorkPracticle/three/static/js/main.d0a62c45.js",
-    "index.html": "/flexbeTextWorkPracticle/three/index.html",
-    "static/media/Ellipse.svg": "/flexbeTextWorkPracticle/three/static/media/Ellipse.2b06703921916dcb70e9.svg",
-    "main.20849904.css.map": "/flexbeTextWorkPracticle/three/static/css/main.20849904.css.map",
-    "main.d0a62c45.js.map": "/flexbeTextWorkPracticle/three/static/js/main.d0a62c45.js.map"
+    "main.css": "/flexbeTextWorkPracticle/static/css/main.68dd3e39.css",
+    "main.js": "/flexbeTextWorkPracticle/static/js/main.d0a62c45.js",
+    "index.html": "/flexbeTextWorkPracticle/index.html",
+    "static/media/Ellipse.svg": "/flexbeTextWorkPracticle/static/media/Ellipse.2b06703921916dcb70e9.svg",
+    "main.68dd3e39.css.map": "/flexbeTextWorkPracticle/static/css/main.68dd3e39.css.map",
+    "main.d0a62c45.js.map": "/flexbeTextWorkPracticle/static/js/main.d0a62c45.js.map"
   },
   "entrypoints": [
-    "static/css/main.20849904.css",
+    "static/css/main.68dd3e39.css",
     "static/js/main.d0a62c45.js"
   ]
 }
