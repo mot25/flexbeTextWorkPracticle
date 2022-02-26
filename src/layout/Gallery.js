@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef } from 'react'
 import Sort from '../componets/Sort.js';
 import useScroll from '../hook/useScroll'
 import { Context } from '../context/Context.js';

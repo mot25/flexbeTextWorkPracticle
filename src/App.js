@@ -1,8 +1,8 @@
-import './App.css';
 import { ContextWrapper } from './context/Context';
-import './componets/media.css';
 import Header from './layout/Header';
 import Gallery from './layout/Gallery';
+import './App.css';
+import './componets/media.css';
 
 function App() {
   return (
