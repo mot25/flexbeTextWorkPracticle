@@ -17,7 +17,7 @@ export default function Gallery() {
     const [arrPhotos, setarrPhotos] = useState([])
     // console.log('arrPhotos', arrPhotos)
 
-    const [arr, setArr] = useState([])
+    const [arr, setArr] = useState(j1)
 
     return (
         <div className="gallery">
