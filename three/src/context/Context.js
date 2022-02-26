@@ -24,16 +24,9 @@ export const ContextWrapper = ({ children }) => {
 
     const [value, dispatch] = useReducer(Reducer, init)
 
-    value.setarrPhotos = (item) => {
-        console.log('item', item)
-
-        dispatch({ type: 'SET_PHOTOS', item })
-    }
-    value.setCounter = (num) => {
-        console.log('num', num)
-        
-        dispatch({ type: 'SET_COUNTER', num })
-    }
+    value.setarrPhotos = (item) => dispatch({ type: 'SET_PHOTOS', item })
+ 
+    value.setCounter = (num) => dispatch({ type: 'SET_COUNTER', num })
 
 
     return (

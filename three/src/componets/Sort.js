@@ -14,18 +14,12 @@ export default function Sort({ parenBlock, childBlock }) {
 
     useEffect(() => {
 
-        console.log('rgeefgser', 0 + counter);
-        setarr1([...arr1, ...[...arrPhotos].splice(0 + counter, 4)])
-        setarr2([...arr2, ...[...arrPhotos].splice(4 + counter, 2)])
-        setarr3([...arr3, ...[...arrPhotos].splice(6 + counter, 4)])
+        setarr1([...arr1, ...[...arrPhotos].splice(0 + counter, 12)])
+        setarr2([...arr2, ...[...arrPhotos].splice(12 + counter, 6)])
+        setarr3([...arr3, ...[...arrPhotos].splice(18 + counter, 12)])
     }, [arrPhotos])
 
 
-    console.group();
-    console.log('arr1', arr1)
-    console.log('arr2', arr2)
-    console.log('arr3', arr3)
-    console.groupEnd();
 
 
 
@@ -45,7 +39,7 @@ export default function Sort({ parenBlock, childBlock }) {
                         <img className='img_gallary' src={item.urls.small} />
                     </div>
                 })}
-                <div ref={childBlock}>drf</div>
+                <div className='mark' ref={childBlock}></div>
             </div>
             <div className="rowAroundEdges" >
                 {arr3.map((item, id) => {
@@ -55,6 +49,7 @@ export default function Sort({ parenBlock, childBlock }) {
                 })}
             </div>
         </div>
+
     )
 }
 
