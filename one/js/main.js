@@ -11,10 +11,12 @@ img.style.height = heightImg + 'px'
 x   84 
 
  */
-window.addEventListener('resize', () => {
-    // console.log('hModal', hModal)
+
+const resizeImg = () => {
     const himg = modal.offsetHeight
     // console.log('himg', himg)
 
     img.style.height = heightImg + 'px'
-})
+}
+
+window.addEventListener('resize', resizeImg)

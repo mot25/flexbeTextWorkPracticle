@@ -30,10 +30,11 @@ body {
   -webkit-font-smoothing: antialiased;
   border-radius: 3px;
   box-shadow: 0 2px 15px 0 rgba(57, 68, 71, 0.45);
-  background: #fff;
   height: 95%;
   width: 50%;
   display: flex;
+  background: #fff;
+
   flex-direction: column;
 }
 
