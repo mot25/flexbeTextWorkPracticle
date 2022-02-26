@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/flexbeTextWorkPracticle/static/css/main.68dd3e39.css",
-    "main.js": "/flexbeTextWorkPracticle/static/js/main.d0a62c45.js",
+    "main.css": "/flexbeTextWorkPracticle/static/css/main.fd29d1af.css",
+    "main.js": "/flexbeTextWorkPracticle/static/js/main.4c90515c.js",
     "index.html": "/flexbeTextWorkPracticle/index.html",
     "static/media/Ellipse.svg": "/flexbeTextWorkPracticle/static/media/Ellipse.2b06703921916dcb70e9.svg",
-    "main.68dd3e39.css.map": "/flexbeTextWorkPracticle/static/css/main.68dd3e39.css.map",
-    "main.d0a62c45.js.map": "/flexbeTextWorkPracticle/static/js/main.d0a62c45.js.map"
+    "main.fd29d1af.css.map": "/flexbeTextWorkPracticle/static/css/main.fd29d1af.css.map",
+    "main.4c90515c.js.map": "/flexbeTextWorkPracticle/static/js/main.4c90515c.js.map"
   },
   "entrypoints": [
-    "static/css/main.68dd3e39.css",
-    "static/js/main.d0a62c45.js"
+    "static/css/main.fd29d1af.css",
+    "static/js/main.4c90515c.js"
   ]
 }
