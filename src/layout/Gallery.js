@@ -1,14 +1,13 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
-import Sort from './Sort.js';
+import Sort from '../componets/Sort.js';
 import useScroll from '../hook/useScroll'
 import { Context } from '../context/Context.js';
 import { api1, api2, api3 } from '../config.js';
 
 
 export default function Gallery() {
-    // const [arrPhotos, setarrPhotos] = useState([])
-    const api = api3
-    const { counter, arrPhotos, setarrPhotos, setCounter } = useContext(Context)
+    const api = api1
+    const { counter, setarrPhotos, setCounter } = useContext(Context)
 
 
 
@@ -43,10 +42,6 @@ export default function Gallery() {
                 setarrPhotos(data)
             })
     })
-
-
-
-
 
     return (
         <div className="gallery">

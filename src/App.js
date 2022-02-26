@@ -1,7 +1,8 @@
 import './App.css';
-import Gallery from './componets/Gallery';
-import Header from './componets/Header';
 import { ContextWrapper } from './context/Context';
+import './componets/media.css';
+import Header from './layout/Header';
+import Gallery from './layout/Gallery';
 
 function App() {
   return (
