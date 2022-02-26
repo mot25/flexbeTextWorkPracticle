@@ -34,14 +34,14 @@ export default function Sort({ parenBlock, childBlock }) {
         <div ref={parenBlock} className="container_gallery">
             <div className="rowAroundEdges" >
                 {arr1.map((item, id) => {
-                    return <div key={item.id + id + counter + Date.now()}>
+                    return <div style={{ backgroundColor: item.color }} key={item.id + id + counter + Date.now()}>
                         <img className='img_gallary' src={item.urls.small} />
                     </div>
                 })}
             </div>
             <div className="rowCenter">
                 {arr2.map((item, id) => {
-                    return <div key={item.id + id + counter + Date.now()}>
+                    return <div style={{ backgroundColor: item.color }} key={item.id + id + counter + Date.now()}>
                         <img className='img_gallary' src={item.urls.small} />
                     </div>
                 })}
@@ -49,7 +49,7 @@ export default function Sort({ parenBlock, childBlock }) {
             </div>
             <div className="rowAroundEdges" >
                 {arr3.map((item, id) => {
-                    return <div key={item.id + id + counter + Date.now()}>
+                    return <div style={{ backgroundColor: item.color }} key={item.id + id + counter + Date.now()}>
                         <img className='img_gallary' src={item.urls.small} />
                     </div>
                 })}
